@@ -17,7 +17,7 @@ on:
 permissions:
   # Need `contents: read` to checkout the repository
   # Need `contents: write` to update the step metadata
-  contents: write
+  contents: read|write
 
 jobs:
   # The purpose of this job is to output the current step number 
